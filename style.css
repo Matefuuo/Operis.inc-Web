@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+  
+    
+}
+
+/* Estilos para el encabezado */
+
+header {
+
+    height: 100px;
+    background-color: rgb(143, 89, 18);
+
+}
+
+.logo {
+    height: 85%;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(227, 119, 43);
+    height: 100%;
+    width: 95%;
+
+    margin-left: 2.5%;
+    
+    
+}   
+
+.header-content h1 {
+    font-size: 4em;
+    color: white;
+    font-family: initial;
+    margin-left: 1.5%;
+    margin-right: 1,5%;
+}
+
+.search-container {
+    
+    margin-right: 11%;
+}
+
+.search-input{
+    width:150%;
+    padding:10px;
+    border-radius:25px;
+    border:3px solid #ffffff;
+    outline:none;
+    background:transparent;
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.search-button{
+    width:10%;
+    padding:10px;
+    border-radius:25px;
+    border:3px solid #ffffff;
+    outline:none;
+    background:transparent;
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+    margin-right: 3%;
+}
+
+.search-input::placeholder{
+    color:white;
+    opacity:1;
+    font-style:italic;
+}
+
+.cart {
+    height: 50%;
+    margin-right: 1.5%;
+}
+
+/* Estilos para el cuerpo */
+
+body {
+    background-image: url('back.png');
+    background-repeat: repeat;
+}
+
+.main-content {
+    background-color: rgb(53, 53, 53);
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+    height: 150%;
+    width: 95%;
+
+    margin-left: 2.5%;
+}   
+
+.contenido{
+
+    margin: 0 auto;
+
+    width:1000px;
+
+    padding:20px;
+
+    font-family: initial;
+
+    font-weight:bold;
+
+    color:white;
+
+}
+
+
+
+/* BIENVENIDO */
+
+.bienvenido{
+
+    background:rgb(227, 119, 43);
+
+    display:inline-block;
+
+    padding:
+
+    10px 120px 10px 20px;
+
+    font-size:55px;
+
+    font-style:italic;
+
+    clip-path: polygon(
+    0 0,
+    100% 0,
+    85% 100%,
+    0 100%
+    );
+
+    margin-bottom:40px;
+
+    margin-left: -41.2%;
+
+    margin-top: -20px;
+
+}
+
+
+
+/* OFERTAS */
+
+.ofertas{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    margin-bottom:40px;
+
+   
+
+}
+
+
+
+.triangulo-izq{
+
+    background:rgb(227, 119, 43);
+
+    padding:
+
+    20px 140px 20px 20px;
+
+    font-size:45px;
+
+    font-style:italic;
+
+    clip-path: polygon(
+    0 0,
+    100% 0,
+    65% 100%,
+    0 100%
+    );
+
+}
+
+
+
+.triangulo-der{
+
+    background:rgb(227, 119, 43);
+
+    padding:
+
+    20px 20px 20px 140px;
+
+    font-size:45px;
+
+    font-style:italic;
+
+    text-align:right;
+
+    clip-path: polygon(
+    35% 0,
+    100% 0,
+    100% 100%,
+    0 100%
+    );
+
+}
+
+
+
+/* TITULO */
+
+.titulo{
+
+    font-size:45px;
+
+    font-style:italic;
+
+    margin-bottom:30px;
+
+}
+
+
+
+/* CATEGORIAS */
+
+.categorias{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    width:950px;
+
+}
+
+
+
+.cat{
+
+    text-align:center;
+
+}
+
+
+
+.circulo{
+
+    width:160px;
+
+    height:160px;
+
+    background:white;
+
+    border-radius:50%;
+
+    margin-bottom:15px;
+
+}
+
+
+
+.nombre{
+
+    font-size:25px;
+
+    font-style:italic;
+
+}
+
+/* Estilos para el pie de página */
+
+footer {
+
+    height: 100px;
+    background-color: rgb(227, 119, 43);
+
+}
+
