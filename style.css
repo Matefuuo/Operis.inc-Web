@@ -86,7 +86,7 @@ header {
 /* Estilos para el cuerpo */
 
 body {
-    background-image: url('back.png');
+    background-color: black;
     background-repeat: repeat;
 }
 
@@ -286,4 +286,5 @@ footer {
     background-color: rgb(227, 119, 43);
 
 }
+
 
