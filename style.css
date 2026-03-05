@@ -106,8 +106,8 @@ body {
 
     clip-path: polygon(
     0 0,
-    100% 0,
-    85% 100%,
+    85% 0,
+    100% 100%,
     0 100%
     );
 
@@ -253,6 +253,7 @@ footer {
     background-color: rgb(255, 255, 255);
 
 }
+
 
 
 
