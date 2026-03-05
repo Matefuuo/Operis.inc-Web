@@ -47,41 +47,8 @@ header {
     margin-right: 11%;
 }
 
-.search-input{
-    width:150%;
-    padding:10px;
-    border-radius:25px;
-    border:3px solid #ffffff;
-    outline:none;
-    background:transparent;
-    color:white;
-    font-size:20px;
-    font-weight:bold;
-}
 
-.search-button{
-    width:10%;
-    padding:10px;
-    border-radius:25px;
-    border:3px solid #ffffff;
-    outline:none;
-    background:transparent;
-    color:white;
-    font-size:20px;
-    font-weight:bold;
-    margin-right: 3%;
-}
 
-.search-input::placeholder{
-    color:white;
-    opacity:1;
-    font-style:italic;
-}
-
-.cart {
-    height: 50%;
-    margin-right: 1.5%;
-}
 
 /* Estilos para el cuerpo */
 
@@ -283,8 +250,9 @@ body {
 footer {
 
     height: 100px;
-    background-color: rgb(227, 119, 43);
+    background-color: rgb(255, 255, 255);
 
 }
+
 
 
