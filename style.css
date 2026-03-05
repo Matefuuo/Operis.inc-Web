@@ -22,8 +22,8 @@ header {
 
 .header-content {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
 
     background-color: rgb(227, 119, 43);
     height: 100%;
@@ -41,12 +41,6 @@ header {
     margin-left: 1.5%;
     margin-right: 1,5%;
 }
-
-.search-container {
-    
-    margin-right: 11%;
-}
-
 
 
 
@@ -84,8 +78,24 @@ body {
 
     color:white;
 
+   
+
 }
 
+.search-button{
+    width:100%;
+    padding:10px;
+    border-radius:25px;
+    border:3px solid #ffffff;
+    outline:none;
+    background:transparent;
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+  
+
+    
+}
 
 
 /* BIENVENIDO */
@@ -106,10 +116,12 @@ body {
 
     clip-path: polygon(
     0 0,
-    85% 0,
-    100% 100%,
+    100% 0,
+    90% 100%,
     0 100%
     );
+
+    width: 600px;
 
     margin-bottom:40px;
 
@@ -117,11 +129,16 @@ body {
 
     margin-top: -20px;
 
+    gap: 20px;
+
+
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
 }
 
 
-
-/* OFERTAS */
 
 .ofertas{
 
@@ -250,8 +267,26 @@ body {
 footer {
 
     height: 100px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(143, 89, 18);
 
+}
+
+
+
+
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+
+    background-color: rgb(227, 119, 43);
+    height: 100%;
+    width: 95%;
+
+    margin-left: 2.5%;
 }
 
 
