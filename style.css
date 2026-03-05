@@ -86,11 +86,12 @@ body {
     color:white;
     font-size:20px;
     font-weight:bold;
-  
-
-    
 }
 
+.search-button:hover{
+    background:white;
+    color:rgb(138, 202, 222);
+}
 .logo-container {
     display: flex;
     align-items: center;
